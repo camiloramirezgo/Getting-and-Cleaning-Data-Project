@@ -21,4 +21,4 @@ The script presented in the file `run_analysis.R` does the following:
 1. Correct the column names  by making them lower case and adding the “subject” and “activity” columns
 1. Merge all data with the function cbind()
 1. Creates a new tidy dataset using the ddply() function and stores it in the variable `AveragesData` that contains the average of each variable for each activity and each subject
-1. Writes a txt file with the resulting tidy dataset
+1. Writes the text file `tidy_dataset.txt` that contains the resulting tidy dataset
